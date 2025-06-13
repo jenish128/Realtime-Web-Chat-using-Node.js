@@ -1,2 +1,20 @@
 # Realtime-Web-Chat-using-Node.js
 i develop a Real-time Web chat using Node.js
+
+Download a Node JS 
+
+in CMD Write : 
+go file location after write 
+
+1st. npm init
+
+2nd. npm i socket.io
+
+
+step 1 : in code Editer ( VsCode ) click the node server & open terminal in VsCode go to the D:\Node_Project\nodeServer> ( your file path ) 
+
+step 2 : write the 1. nodemon.\index.js ( if not run so write 2nd )
+                   2. nodemon nodeserver/index.js 
+        & run this ( start the node ) & also start the live server of Vscode (EX :- port:5500 )
+
+step 3 : for stop the node ( nodemon ) in terminal click the ctrl + c ( stop the node ) & also stop the live server
