@@ -1,0 +1,111 @@
+/* Logo Styling */
+.logo {
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.chat-heading {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    /* background: linear-gradient(to right, #00f2fe, #4facfe); */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* Background Gradient */
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #4facfe, #00f2fe); /* Blue to Cyan */
+}
+
+/* Message Container */
+.container {
+    max-width: 955px;
+    border: 2px solid #ffffff66;
+    margin: 20px auto;
+    height: 60vh;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #ffffff10;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
+}
+
+/* Message Bubble */
+.message {
+    padding: 12px 15px;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 60%;
+    color: #fff;
+    font-size: 15px;
+    word-wrap: break-word;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* Right (you) */
+.right {
+    float: right;
+    background-color: #1dd1a1; /* Mint Green */
+    color: #000;
+    clear: both;
+}
+
+/* Left (others) */
+.left {
+    float: left;
+    background-color: #ff6b6b; /* Coral Red */
+    clear: both;
+}
+
+/* Form Styling */
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Input Field */
+#messageInp {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+    outline: none;
+}
+
+/* Send Button */
+.btn {
+    padding: 10px 20px;
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1e5ab6;
+}
