@@ -21,7 +21,7 @@ step 3 : for stop the node ( nodemon ) in terminal click the ctrl + c ( stop the
 
 Image 1 : 
 
-![Image](https://github.com/user-attachments/assets/cc339351-fe75-4155-8336-c49544f6c539)
+![Image](https://github.com/user-attachments/assets/8c9e3fdf-2c55-4386-929b-60a197fe306a)
 
 Image 2 :
 
@@ -37,4 +37,4 @@ Image 4 :
 
 Image 5 :
 
-![Image](https://github.com/user-attachments/assets/8c9e3fdf-2c55-4386-929b-60a197fe306a)
+![Image](https://github.com/user-attachments/assets/cc339351-fe75-4155-8336-c49544f6c539)
