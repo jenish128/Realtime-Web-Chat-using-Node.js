@@ -4,7 +4,7 @@ i develop a Real-time Web chat using Node.js
 Download a Node JS 
 
 in CMD Write : 
-go file location after write 
+go file location 
 
 1st. npm init
 
